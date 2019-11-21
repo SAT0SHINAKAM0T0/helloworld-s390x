@@ -1,5 +1,5 @@
 FROM kingru/hpvsop-base-ssh:1.1.0-release-ce4ff60
-FROM kongru/nginx:alpine-s390x
+FROM kongru/nginx:alpine-s390x-trust
 
 # for hpvs-base
 COPY init.sh /usr/bin
