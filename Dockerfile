@@ -1,4 +1,4 @@
-FROM kongru/hpvsop-base-ssh:1.1.0-release-ce4ff60
+FROM kingru/hpvsop-base-ssh:1.1.0-release-ce4ff60
 FROM s390x/nginx
 
 # for hpvs-base
